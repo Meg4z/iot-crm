@@ -15,7 +15,6 @@ public enum Status {
         this.proximosStatus = proximos;
     }
 
-    // Método que valida a transição
     public boolean podeMudarPara(Status novo) {
         for (Status proximo : proximosStatus) {
             if (proximo == novo) {
