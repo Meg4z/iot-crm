@@ -18,7 +18,7 @@ public abstract class  Oportunidade{
             this.id=id;
             this.dataCriacao=dataCriacao;
             this.valor=valor;
-            this.status = Status.PROSPECÇÃO;
+            this.status = Status.PROSPECCAO;
             this.itens_id=itens_id;
             this.vendedor_id=vendedor_id;
             this.cliente_id=cliente_id;
